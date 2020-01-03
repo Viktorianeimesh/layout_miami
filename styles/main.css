@@ -222,10 +222,18 @@ a:visited {
        object-fit: cover;
     -o-object-position: center;
        object-position: center; }
-  .photos_wide_left .photos__img:first-child {
-    width: calc(67% - 10px); }
-  .photos_wide_left .photos__img:last-child {
-    width: calc(67% - 10px); }
+
+.photos__img1 {
+  width: calc(67% - 10px); }
+
+.photos__img2 {
+  width: calc(33% - 10px); }
+
+.photos__img5 {
+  width: calc(33% - 10px); }
+
+.photos__img6 {
+  width: calc(67% - 10px); }
 
 .gallery .gallery__caption {
   margin: 12px 0 35px; }
