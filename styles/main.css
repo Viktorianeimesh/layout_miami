@@ -22,7 +22,6 @@ h6 {
 
 .header {
   height: 100vh;
-  max-width: 2000px;
   background-image: url(../images/newheader.jpg);
   background-size: cover;
   background-position: center;
@@ -246,8 +245,7 @@ h6 {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 1800px; }
+          justify-content: space-between; }
   .info__title {
     font-size: 48px;
     line-height: 60px;
@@ -289,7 +287,9 @@ h6 {
 .section {
   padding: 70px 100px;
   background: #fff;
-  max-width: 1400px; }
+  max-width: 2000px;
+  display: block;
+  margin: auto; }
 
 @media screen and (max-width: 500px) {
   .section {
@@ -357,33 +357,34 @@ h6 {
   .photos__img-large, .photos__img-small {
     width: calc(50% - 10px); } }
 
-.gallery {
-  max-width: 2000px; }
-  .gallery__caption {
-    line-height: 27px;
-    color: #0075ff;
-    font-weight: 700; }
-  .gallery__link {
-    text-decoration: none;
-    color: #3e3e3e;
-    -webkit-transition: 0.7s;
-    transition: 0.7s; }
-    .gallery__link:hover {
-      color: #9fadc2; }
-  .gallery__button {
-    padding: 14px 57px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    border: 2px solid #0075ff;
-    border-radius: 8px;
-    color: #0075ff;
-    -webkit-transition: 0.7s;
-    transition: 0.7s;
-    font-weight: 700; }
-    .gallery__button:hover {
-      background-color: #0075ff;
-      color: #fff; }
+.gallery__caption {
+  line-height: 27px;
+  color: #0075ff;
+  font-weight: 700;
+  margin: 24px 0; }
+
+.gallery__link {
+  text-decoration: none;
+  color: #3e3e3e;
+  -webkit-transition: 0.7s;
+  transition: 0.7s; }
+  .gallery__link:hover {
+    color: #9fadc2; }
+
+.gallery__button {
+  padding: 14px 57px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 2px solid #0075ff;
+  border-radius: 8px;
+  color: #0075ff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  font-weight: 700; }
+  .gallery__button:hover {
+    background-color: #0075ff;
+    color: #fff; }
 
 .consultation {
   display: -webkit-box;
@@ -391,8 +392,7 @@ h6 {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 2000px; }
+          justify-content: space-between; }
   .consultation__heading {
     width: 260px;
     height: 60px;
@@ -491,8 +491,7 @@ h6 {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
-  max-width: 2000px; }
+          justify-content: space-between; }
   .contact__tools {
     font-size: 14px;
     line-height: 27px;
@@ -521,8 +520,7 @@ h6 {
   background-size: cover;
   background-position: center;
   position: relative;
-  bottom: 0;
-  max-width: 2000px; }
+  bottom: 0; }
   .footer__logo {
     position: absolute;
     bottom: 40px;
