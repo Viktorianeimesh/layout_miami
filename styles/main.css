@@ -33,7 +33,8 @@ h6 {
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between; }
+            justify-content: space-between;
+    max-width: 1800px; }
   .header__phone, .header__action {
     margin-top: 56px; }
   .header__phone {
