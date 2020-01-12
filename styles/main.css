@@ -34,7 +34,8 @@ h6 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 1800px; }
+    max-width: 1800px;
+    margin: auto; }
   .header__phone, .header__action {
     margin-top: 56px; }
   .header__phone {
@@ -286,7 +287,7 @@ h6 {
       padding: 10px 0; } }
 
 .section {
-  padding: 70px 100px;
+  padding: 30px 100px;
   background: #fff;
   max-width: 2000px;
   display: block;
