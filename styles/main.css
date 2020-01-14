@@ -92,43 +92,43 @@ h6 {
       background-color: #fff;
       top: -10%; }
   .header__nav {
-    position: relative;
-    top: 30%; }
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    left: 0; }
 
 @media screen and (max-width: 500px) {
-  .header {
-    height: 100%; }
-    .header__top {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .header__title {
-      margin: auto;
-      font-size: 24px;
-      line-height: 24px;
-      white-space: nowrap;
-      display: block;
-      position: relative;
-      bottom: 30px;
-      text-align: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center; }
-    .header__phone, .header__action {
-      margin: 10px;
-      white-space: nowrap;
-      font-size: 12px; }
-    .header__action {
-      font-size: 10px; }
-      .header__action:after {
-        content: "";
-        position: absolute;
-        top: 20px;
-        left: 0; } }
+  .header__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .header__title {
+    margin: auto;
+    font-size: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    display: block;
+    position: relative;
+    bottom: 70px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .header__phone, .header__action {
+    margin: 10px;
+    white-space: nowrap;
+    font-size: 12px; }
+  .header__action {
+    font-size: 10px; }
+    .header__action:after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: 0; } }
 
 @media screen and (max-width: 1200px) {
   .header__top {
