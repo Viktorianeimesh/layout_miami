@@ -140,7 +140,6 @@ h6 {
         -ms-flex-align: center;
             align-items: center; }
   .header__title {
-    margin-top: 150px;
     white-space: nowrap;
     font-size: 32px;
     line-height: 32px;
@@ -150,7 +149,9 @@ h6 {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    text-align: center; }
+    text-align: center;
+    position: absolute;
+    bottom: 300px; }
   .header__phone, .header__action {
     margin-top: 15px;
     white-space: nowrap; } }
