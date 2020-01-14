@@ -92,7 +92,8 @@ h6 {
       background-color: #fff;
       top: -10%; }
   .header__nav {
-    margin-top: 20%; }
+    position: relative;
+    top: 30%; }
 
 @media screen and (max-width: 500px) {
   .header {
@@ -107,12 +108,16 @@ h6 {
               align-items: center; }
     .header__title {
       margin: auto;
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 24px;
+      line-height: 24px;
       white-space: nowrap;
       display: block;
       position: relative;
-      text-align: center; }
+      bottom: 30px;
+      text-align: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
     .header__phone, .header__action {
       margin: 10px;
       white-space: nowrap;
@@ -246,7 +251,7 @@ h6 {
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
   .nav__item {
-    margin-bottom: 25px 0; } }
+    margin-bottom: 15px 0; } }
 
 .info {
   display: -webkit-box;
