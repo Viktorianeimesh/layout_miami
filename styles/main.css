@@ -36,6 +36,9 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  .header__wrapper {
+    display: block;
+    margin: 0 auto; }
   .header__top {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -43,8 +46,7 @@ h6 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    max-width: 1800px;
-    margin: 0; }
+    width: 1100px; }
   .header__logo {
     margin-top: 24px; }
   .header__phone {
@@ -81,9 +83,9 @@ h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #fff;
     font-size: 60px;
     font-weight: 700;
@@ -98,7 +100,8 @@ h6 {
       width: 35px;
       position: absolute;
       background-color: #fff;
-      top: -10%; }
+      top: -10%;
+      left: 41%; }
   .header__nav {
     margin-bottom: 20px; }
 
@@ -119,10 +122,14 @@ h6 {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      margin-bottom: 10px; }
+      margin: 10px auto;
+      width: 200px; }
     .header__title {
       margin: auto;
       font-size: 36px;
@@ -154,6 +161,22 @@ h6 {
         position: absolute;
         top: 20px;
         left: 0; } }
+
+@-webkit-keyframes title-animation {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px); }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+
+@keyframes title-animation {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px); }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
 
 .logo {
   background-image: url(../images/logo.png);
