@@ -20,6 +20,9 @@ h6 {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+body {
+  overflow-x: hidden; }
+
 .header {
   height: 100vh;
   background-image: url(../images/newheader.jpg);
