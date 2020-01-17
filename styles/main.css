@@ -237,8 +237,6 @@ body {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     font-size: 14px; }
-    .nav__item_active {
-      background-color: rgba(255, 255, 255, 0.1); }
   .nav__link {
     text-decoration: none;
     white-space: nowrap;
@@ -432,7 +430,8 @@ body {
     height: 60px;
     font-size: 24px;
     line-height: 30px;
-    color: #0075ff; }
+    color: #0075ff;
+    margin-bottom: 25px; }
   .consultation__text {
     width: 412px;
     line-height: 27px;
@@ -450,8 +449,8 @@ body {
     .consultation__heading {
       margin-bottom: 25px; }
     .consultation__text {
-      width: 100%;
-      margin-bottom: 25px; } }
+      margin-bottom: 25px;
+      width: 100%; } }
 
 .form {
   display: -webkit-box;
@@ -534,7 +533,7 @@ body {
     line-height: 27px;
     color: #9fadc2; }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
   .contact {
     display: -webkit-box;
     display: -ms-flexbox;
