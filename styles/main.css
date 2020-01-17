@@ -293,7 +293,7 @@ body {
   .info__accent {
     margin-top: 20px; }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   .info {
     display: -webkit-box;
     display: -ms-flexbox;
