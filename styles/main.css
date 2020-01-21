@@ -572,4 +572,7 @@ html {
     right: 0;
     margin: auto; }
 
+html {
+  scroll-behavior: smooth; }
+
 /*# sourceMappingURL=main.css.map */
