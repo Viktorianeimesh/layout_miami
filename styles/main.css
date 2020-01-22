@@ -208,8 +208,13 @@ html {
   padding: 20px 100px;
   -webkit-transition: 0.7s;
   transition: 0.7s;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
   .button:hover {
+    background-color: #fff;
+    color: #0075ff; }
+  .button:focus {
+    outline: none;
     background-color: #fff;
     color: #0075ff; }
 
@@ -249,6 +254,10 @@ html {
     .nav__link:hover {
       background-color: rgba(255, 255, 255, 0.1);
       border-radius: 15px; }
+    .nav__link:focus {
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      outline: none; }
 
 @media screen and (max-width: 1200px) {
   .nav__list {
@@ -284,6 +293,9 @@ html {
     transition: 0.7s; }
     .info__link:hover {
       color: #9fadc2; }
+    .info__link:focus {
+      color: #9fadc2;
+      outline: none; }
   .info__text {
     line-height: 27px;
     padding: 50px 0;
@@ -401,6 +413,9 @@ html {
   transition: 0.7s; }
   .gallery__link:hover {
     color: #9fadc2; }
+  .gallery__link:focus {
+    outline: none;
+    color: #9fadc2; }
 
 .gallery__button {
   padding: 14px 57px;
@@ -414,6 +429,10 @@ html {
   transition: 0.7s;
   font-weight: 700; }
   .gallery__button:hover {
+    background-color: #0075ff;
+    color: #fff; }
+  .gallery__button:focus {
+    outline: none;
     background-color: #0075ff;
     color: #fff; }
 
@@ -467,7 +486,8 @@ html {
   .form__input, .form__button {
     display: block;
     width: 100%;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    outline: none; }
 
 @media screen and (max-width: 500px) {
   .form {
